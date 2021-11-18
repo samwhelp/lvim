@@ -6,8 +6,10 @@ keymaps["normal"] = {
     {"<F3>", ":TTThree<CR>"}, -- Toggleterm three open
     {"<F4>", ":TTFloat<CR>"}, -- Toggleterm float open
     {"<F5>", ":UndotreeToggle<CR>"}, -- UndoTree toggle
-    {"<F11>", ":LvimHelper<CR>"}, -- LvimHelper
-    {"<C-space>", ":CtrlSpace<CR>"}, -- CtrlSpace
+    --{"<F11>", ":LvimHelper<CR>"}, -- LvimHelper
+    {"<F10>", ":LvimHelper<CR>"}, -- LvimHelper
+    --{"<C-space>", ":CtrlSpace<CR>"}, -- CtrlSpace
+    {"<space><space>", ":CtrlSpace<CR>"}, -- CtrlSpace
     {"<Esc>", "<Esc>:noh<CR>"}, -- Remove highlight after search
     {"<C-c>n", ":e %:h/filename<CR>"}, -- Create new file in current directory
     {"<C-s>", ":w<CR>"}, -- Save
